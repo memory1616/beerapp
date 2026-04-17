@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Beer POS Mobile",
+    "slug": "beer-pos-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1a365d"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beerpos.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a365d"
+      },
+      "package": "com.beerpos.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiBaseUrl": "http://localhost:3000"
+    },
+    "newArchEnabled": true
+  }
+}
