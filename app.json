@@ -8,7 +8,9 @@
     "splash": {
       "backgroundColor": "#1a365d"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.beerpos.mobile"
